@@ -9,8 +9,8 @@ using Microsoft.EntityFrameworkCore;
 
 namespace CitiesWebAPI.Controllers
 {
-    //[Route("api/[controller]")]
-    //[ApiController]
+    [Route("api/[controller]")]
+    [ApiController]
     public class PlaceController : ControllerBase
     {
         private readonly CityDataContext _db;
